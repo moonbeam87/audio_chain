@@ -54,17 +54,6 @@ Wire Wire Line
 	1400 3550 1400 4650
 Connection ~ 1400 3550
 $Comp
-L Device:Microphone MK1
-U 1 1 613E6E32
-P 2900 2800
-F 0 "MK1" H 3030 2846 50  0000 L CNN
-F 1 "Microphone" H 3030 2755 50  0000 L CNN
-F 2 "" V 2900 2900 50  0001 C CNN
-F 3 "~" V 2900 2900 50  0001 C CNN
-	1    2900 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:-12V #PWR0107
 U 1 1 613EBD57
 P 7750 2850
@@ -153,28 +142,6 @@ F 3 "~" H 7600 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q1
-U 1 1 617DDDC3
-P 8850 2250
-F 0 "Q1" H 9041 2296 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 9041 2205 50  0000 L CNN
-F 2 "" H 9050 2350 50  0001 C CNN
-F 3 "~" H 8850 2250 50  0001 C CNN
-	1    8850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PNP_BCE Q2
-U 1 1 617DEF87
-P 8850 3150
-F 0 "Q2" H 9040 3196 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 9040 3105 50  0000 L CNN
-F 2 "" H 9050 3250 50  0001 C CNN
-F 3 "~" H 8850 3150 50  0001 C CNN
-	1    8850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:-12V #PWR0117
 U 1 1 617DFF4A
 P 8950 3350
@@ -203,12 +170,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3150 8650 3150
 Wire Wire Line
-	8950 2450 8950 2750
-Wire Wire Line
-	9300 2750 8950 2750
-Connection ~ 8950 2750
-Wire Wire Line
-	8950 2750 8950 2950
+	9300 2750 9100 2750
 $Comp
 L power:+12V #PWR0104
 U 1 1 61A9E61E
@@ -448,12 +410,6 @@ Wire Wire Line
 	8150 2200 8150 2300
 Wire Wire Line
 	8600 2300 8600 2750
-Wire Wire Line
-	2900 2600 2900 2250
-Wire Wire Line
-	2900 2250 4350 2250
-Wire Wire Line
-	4350 2250 4350 2750
 Wire Wire Line
 	4350 2750 4550 2750
 Wire Wire Line
@@ -855,8 +811,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 4150 8600 4600
 Wire Wire Line
-	4350 4100 4350 4600
-Wire Wire Line
 	4350 4600 4550 4600
 Wire Wire Line
 	7350 4150 7350 3900
@@ -870,10 +824,6 @@ Connection ~ 7350 4150
 Connection ~ 8600 4600
 Wire Wire Line
 	8600 4600 8600 5000
-Wire Wire Line
-	2900 3000 2900 4100
-Wire Wire Line
-	2900 4100 4350 4100
 Wire Wire Line
 	7550 3050 7600 3050
 Wire Wire Line
@@ -950,19 +900,93 @@ Wire Wire Line
 Wire Wire Line
 	2750 2100 4350 2100
 Wire Wire Line
-	4350 2100 4350 2250
-Connection ~ 4350 2250
-Wire Wire Line
-	4250 1600 4400 1600
-Wire Wire Line
-	4400 1600 4400 1150
-Wire Wire Line
 	4400 1150 2600 1150
 Wire Wire Line
 	2600 1150 2600 4000
 Wire Wire Line
 	2600 4000 4350 4000
 Wire Wire Line
-	4350 4000 4350 4100
-Connection ~ 4350 4100
+	4250 1700 4400 1700
+Wire Wire Line
+	4400 1150 4400 1700
+$Comp
+L SamacSys_Parts:MJE15034G Q?
+U 1 1 61ACC405
+P 9700 2150
+F 0 "Q?" H 10328 2096 50  0000 L CNN
+F 1 "MJE15034G" H 10328 2005 50  0000 L CNN
+F 2 "TO254P483X1010X2035-3P" H 10350 2250 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF" H 10350 2150 50  0001 L CNN
+F 4 "" H 10350 2050 50  0001 L CNN "Description"
+F 5 "4.83" H 10350 1950 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 10350 1850 50  0001 L CNN "Manufacturer_Name"
+F 7 "MJE15034G" H 10350 1750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-MJE15034G" H 10350 1650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D" H 10350 1550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MJE15034G" H 10350 1450 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe" H 10350 1350 50  0001 L CNN "Arrow Price/Stock"
+	1    9700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:MJE15035G Q?
+U 1 1 61ACD380
+P 9700 2800
+F 0 "Q?" H 10328 2746 50  0000 L CNN
+F 1 "MJE15035G" H 10328 2655 50  0000 L CNN
+F 2 "TO254P483X1010X2035-3P" H 10350 2900 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF" H 10350 2800 50  0001 L CNN
+F 4 "" H 10350 2700 50  0001 L CNN "Description"
+F 5 "4.83" H 10350 2600 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 10350 2500 50  0001 L CNN "Manufacturer_Name"
+F 7 "MJE15035G" H 10350 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-MJE15035G" H 10350 2300 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D" H 10350 2200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MJE15035G" H 10350 2100 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe" H 10350 2000 50  0001 L CNN "Arrow Price/Stock"
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2250 8700 1800
+Wire Wire Line
+	8700 1800 9500 1800
+Wire Wire Line
+	9500 1800 9500 2150
+Wire Wire Line
+	9500 2150 9700 2150
+Wire Wire Line
+	8950 2050 9400 2050
+Wire Wire Line
+	9400 2050 9400 2250
+Wire Wire Line
+	9400 2250 9700 2250
+Wire Wire Line
+	9700 2350 9100 2350
+Wire Wire Line
+	9100 2350 9100 2750
+Connection ~ 9100 2750
+Wire Wire Line
+	9100 2750 9100 2900
+Wire Wire Line
+	9100 2900 9700 2900
+Wire Wire Line
+	8600 3150 8600 3600
+Wire Wire Line
+	8600 3600 9600 3600
+Wire Wire Line
+	9600 3600 9600 2800
+Wire Wire Line
+	9600 2800 9700 2800
+Connection ~ 8600 3150
+Wire Wire Line
+	9700 3000 9700 3350
+Wire Wire Line
+	9700 3350 8950 3350
+Wire Wire Line
+	8650 2250 8700 2250
+Wire Wire Line
+	4350 2100 4350 2750
+Wire Wire Line
+	4350 4000 4350 4600
 $EndSCHEMATC
