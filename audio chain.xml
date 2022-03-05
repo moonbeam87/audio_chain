@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\2021d\Documents\GitHub\audio_chain\audio chain.kicad_sch</source>
+    <date>12/28/2021 10:09:26 AM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>audio chain.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617d8aa6</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86a4041e-536c-420b-b653-8770668c6913</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LM2902AWYDT</value>
+      <footprint>SOIC127P600X175-14N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf</datasheet>
+      <fields>
+        <field name="Description">STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LM2902AWYDT</field>
+        <field name="Mouser Part Number">511-LM2902AWYDT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM2902AWYDT" description=""/>
+      <property name="Description" value="STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="LM2902AWYDT"/>
+      <property name="Mouser Part Number" value="511-LM2902AWYDT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061baefa8</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>LM2902AWYDT</value>
+      <footprint>SOIC127P600X175-14N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf</datasheet>
+      <fields>
+        <field name="Description">STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LM2902AWYDT</field>
+        <field name="Mouser Part Number">511-LM2902AWYDT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM2902AWYDT" description=""/>
+      <property name="Description" value="STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="LM2902AWYDT"/>
+      <property name="Mouser Part Number" value="511-LM2902AWYDT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22cf26dc-f41e-4e3e-bd6c-edbf7f2974ed</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MJE15034G</value>
+      <footprint>TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MJE15034G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15034G</field>
+        <field name="Mouser Part Number">863-MJE15034G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15034G" description=""/>
+      <property name="Description" value=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Manufacturer_Name" value="ON Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="MJE15034G"/>
+      <property name="Mouser Part Number" value="863-MJE15034G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MJE15034G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061acc405</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MJE15035G</value>
+      <footprint>TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MJE15035G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15035G</field>
+        <field name="Mouser Part Number">863-MJE15035G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15035G" description=""/>
+      <property name="Description" value=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Manufacturer_Name" value="ON Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="MJE15035G"/>
+      <property name="Mouser Part Number" value="863-MJE15035G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MJE15035G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061acd380</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>MJE15034G</value>
+      <footprint>TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MJE15034G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15034G</field>
+        <field name="Mouser Part Number">863-MJE15034G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15034G" description=""/>
+      <property name="Description" value=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Manufacturer_Name" value="ON Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="MJE15034G"/>
+      <property name="Mouser Part Number" value="863-MJE15034G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MJE15034G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaa022bb-bd6d-4479-887e-1625445e6e8d</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>MJE15035G</value>
+      <footprint>TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MJE15035G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15035G</field>
+        <field name="Mouser Part Number">863-MJE15035G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15035G" description=""/>
+      <property name="Description" value=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Manufacturer_Name" value="ON Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="MJE15035G"/>
+      <property name="Mouser Part Number" value="863-MJE15035G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D"/>
+      <property name="Arrow Part Number" value="MJE15035G"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e28f0711-0cce-4361-a07b-2274ae6767ba</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613ecf2a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000613ec85a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12403202-7621-41e0-8412-7451d7b09aaa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de1f754a-d87f-4f5d-9823-f0dbef38b3dd</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab4abd</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab4ab7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617d93ca</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>181710ef-7f2a-4351-a3a6-56d2f8765ecc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617dc4d6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d89731e1-6e97-4507-b9f9-b61fcbd186f2</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061adce15</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ababda</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ababd4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f7b2216-d885-404f-aa2a-15b7e880d5cd</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92125758-6d25-4687-9662-3ee0a7b63316</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bec2d6c-3623-44f5-bf50-c91fab04ae86</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51744168-bfea-4a8e-8692-c99342c4a1b3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aef3fb</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aef402</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14c29d36-5eba-4ba7-954f-69d94744ad26</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88aa238a-984c-4344-81e5-36d29bfb5cb4</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>865ccc24-8d76-40dd-b186-09e79726bf18</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SJ2-35954B-SMT-TR</value>
+      <footprint>SJ235954BSMTTR</footprint>
+      <datasheet>https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SJ2-35954B-SMT-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices</field>
+        <field name="Description">Phone Connectors 3.5mm Audio Jack SMT 4conductr Tip switc-1</field>
+        <field name="Height">4.15</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">SJ2-35954B-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ2-35954BSMT-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ2-35954B-SMT-TR?qs=DXv0QSHKF4xFg%252BzFD15Yig%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SJ2-35954B-SMT-TR" description=""/>
+      <property name="Description" value="Phone Connectors 3.5mm Audio Jack SMT 4conductr Tip switc-1"/>
+      <property name="Height" value="4.15"/>
+      <property name="Manufacturer_Name" value="CUI Inc."/>
+      <property name="Manufacturer_Part_Number" value="SJ2-35954B-SMT-TR"/>
+      <property name="Mouser Part Number" value="490-SJ2-35954BSMT-TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ2-35954B-SMT-TR?qs=DXv0QSHKF4xFg%252BzFD15Yig%3D%3D"/>
+      <property name="Arrow Part Number" value="SJ2-35954B-SMT-TR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/2021d/Documents/GitHub/audio_chain/audio chain.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ba7ce4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SamacSys_Parts_LM2902AWYDT">
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SamacSys_Parts_LM2902AWYDT</field>
+        <field name="Footprint">SOIC127P600X175-14N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf</field>
+        <field name="Description">STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LM2902AWYDT</field>
+        <field name="Mouser Part Number">511-LM2902AWYDT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT_1" type="passive"/>
+        <pin num="2" name="INVERTING_INPUT1" type="passive"/>
+        <pin num="3" name="NON-INVERTING_INPUT_1" type="passive"/>
+        <pin num="4" name="VCC+" type="passive"/>
+        <pin num="5" name="NON-INVERTING_INPUT2" type="passive"/>
+        <pin num="6" name="INVERTING_INPUT_2" type="passive"/>
+        <pin num="7" name="OUTPUT2" type="passive"/>
+        <pin num="8" name="OUTPUT_3" type="passive"/>
+        <pin num="9" name="INVERTING_INPUT3" type="passive"/>
+        <pin num="10" name="NON-INVERTING_INPUT3" type="passive"/>
+        <pin num="11" name="VCC-" type="passive"/>
+        <pin num="12" name="NON-INVERTING_INPUT4" type="passive"/>
+        <pin num="13" name="INVERTING_INPUT_4" type="passive"/>
+        <pin num="14" name="OUTPUT_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SamacSys_Parts_MJE15034G">
+      <docs>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SamacSys_Parts_MJE15034G</field>
+        <field name="Footprint">TO254P483X1010X2035-3P</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15034G</field>
+        <field name="Mouser Part Number">863-MJE15034G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D</field>
+        <field name="Arrow Part Number">MJE15034G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SamacSys_Parts_MJE15035G">
+      <docs>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SamacSys_Parts_MJE15035G</field>
+        <field name="Footprint">TO254P483X1010X2035-3P</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MJE15035G</field>
+        <field name="Mouser Part Number">863-MJE15035G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D</field>
+        <field name="Arrow Part Number">MJE15035G</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SamacSys_Parts_SJ2-35954B-SMT-TR">
+      <docs>https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SamacSys_Parts_SJ2-35954B-SMT-TR</field>
+        <field name="Footprint">SJ235954BSMTTR</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices</field>
+        <field name="Description">Phone Connectors 3.5mm Audio Jack SMT 4conductr Tip switc-1</field>
+        <field name="Height">4.15</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">SJ2-35954B-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ2-35954BSMT-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ2-35954B-SMT-TR?qs=DXv0QSHKF4xFg%252BzFD15Yig%3D%3D</field>
+        <field name="Arrow Part Number">SJ2-35954B-SMT-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SLEEVE" type="passive"/>
+        <pin num="2" name="TIP" type="passive"/>
+        <pin num="3" name="RING1" type="passive"/>
+        <pin num="4" name="RING2" type="passive"/>
+        <pin num="10" name="TIP_SWITCH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="IC1" pin="11" pinfunction="VCC-" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="NON-INVERTING_INPUT4" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="VCC+" pintype="passive"/>
+      <node ref="IC2" pin="11" pinfunction="VCC-" pintype="passive"/>
+      <node ref="IC2" pin="12" pinfunction="NON-INVERTING_INPUT4" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="VCC+" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="OUTPUT_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="OUTPUT_3" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="OUTPUT_1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="NON-INVERTING_INPUT2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="INVERTING_INPUT1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="NON-INVERTING_INPUT_1" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="RING1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="INVERTING_INPUT_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="INVERTING_INPUT3" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="NON-INVERTING_INPUT3" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="OUTPUT2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="INVERTING_INPUT_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="OUTPUT_4" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1" pinfunction="OUTPUT_1" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="NON-INVERTING_INPUT2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="INVERTING_INPUT1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC2-Pad6)">
+      <node ref="IC2" pin="6" pinfunction="INVERTING_INPUT_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(IC2-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="INVERTING_INPUT3" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="NON-INVERTING_INPUT3" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="OUTPUT2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(IC2-Pad13)">
+      <node ref="IC2" pin="13" pinfunction="INVERTING_INPUT_4" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(IC2-Pad14)">
+      <node ref="IC2" pin="14" pinfunction="OUTPUT_4" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(S1-Pad2)">
+      <node ref="IC2" pin="3" pinfunction="NON-INVERTING_INPUT_1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="TIP" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(S1-Pad1)">
+      <node ref="S1" pin="1" pinfunction="SLEEVE" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(S1-Pad4)">
+      <node ref="S1" pin="4" pinfunction="RING2" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(S1-Pad10)">
+      <node ref="S1" pin="10" pinfunction="TIP_SWITCH" pintype="passive"/>
+    </net>
+  </nets>
+</export>
